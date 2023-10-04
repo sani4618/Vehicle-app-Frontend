@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
 
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <a href="">New Registeration/Sign Up</a>
+                        <a href="/reg">New Registeration/Sign Up</a>
                     </div>
 
                 </div>
