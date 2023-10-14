@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vehicle-app-Frontend/static/css/main.073c9b0a.css",
+    "main.js": "/Vehicle-app-Frontend/static/js/main.0843408f.js",
+    "static/js/787.66bdc1ae.chunk.js": "/Vehicle-app-Frontend/static/js/787.66bdc1ae.chunk.js",
+    "static/media/logo.svg": "/Vehicle-app-Frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Vehicle-app-Frontend/index.html",
+    "main.073c9b0a.css.map": "/Vehicle-app-Frontend/static/css/main.073c9b0a.css.map",
+    "main.0843408f.js.map": "/Vehicle-app-Frontend/static/js/main.0843408f.js.map",
+    "787.66bdc1ae.chunk.js.map": "/Vehicle-app-Frontend/static/js/787.66bdc1ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0843408f.js"
+  ]
+}
