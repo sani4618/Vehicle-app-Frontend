@@ -12,6 +12,10 @@ const Register = () => {
             ownername:"",
             address:"",
             phNum:"",
+            email:"",
+            username:"",
+            password:"",
+            confirmpassword:"",
             image:""
         }
     )
@@ -40,6 +44,10 @@ const Register = () => {
                         ownername:"",
                         address:"",
                         phNum:"",
+                        email:"",
+                        username:"",
+                        password:"",
+                        confirmpassword:"",
                         image:""
 
                     })
@@ -95,6 +103,26 @@ const Register = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Phone Number</label>
                                 <input type="text" name="phNum" value={vehicleDetails.phNum} className="form-control" onChange={readVehicleDetails}/>
+                            </div>
+
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form label">User name</label>
+                                <input type="text" name="username" value={vehicleDetails.username} className="form-control" onChange={readVehicleDetails} />
+                            </div>
+
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form label">Email</label>
+                                <input type="text" name="email" value={vehicleDetails.email} className="form-control" onChange={readVehicleDetails} />
+                            </div>
+
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form label">Password</label>
+                                <input type="passwordt" name="password" value={vehicleDetails.password} className="form-control" onChange={readVehicleDetails} />
+                            </div>
+
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form label">Confirm Password</label>
+                                <input type="password" name="confirmpassword" value={vehicleDetails.confirmpassword} className="form-control" onChange={readVehicleDetails} />
                             </div>
 
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
