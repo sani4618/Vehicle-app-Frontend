@@ -22,7 +22,7 @@ const Register = () => {
 
     const DisplayDetails=()=>{
         console.log(vehicleDetails)
-        const appLink="http://127.0.0.1:8000/api/register/"
+        const appLink="http://34.226.75.12:8000/api/register/"
         axios.post(appLink,vehicleDetails).then(
             (response)=>{
                 console.log(response.data)
