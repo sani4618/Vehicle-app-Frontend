@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import NavigationBar from './NavigationBar'
 
-const appLink="http://127.0.0.1:8000/api/viewall/"
+const appLink="http://34.226.75.12:8000/api/viewall/"
 const ViewAll = () => {
     const[viewVehicleDetails,SetViewVehicleDetails]=useState([])
     const [isLoading, SetIsLoading] = useState(true)
