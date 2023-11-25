@@ -14,7 +14,7 @@ const Search = () => {
     const DisplaySearchVehicle = () => {
         //console.log(SearchVehicleDetails)
         SetIsLoading(true)
-        const appLink = "http://127.0.0.1:8000/api/search/"
+        const appLink = "http://34.226.75.12:8000/api/search/"
         axios.post(appLink, SearchVehicleDetails).then(
             (response) => {
                 console.log(response.data)
